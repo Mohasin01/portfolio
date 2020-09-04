@@ -1,0 +1,140 @@
+*
+{
+	margin:0;
+	padding:0;
+font-family: century gothic;
+
+}
+
+header{
+	background-image:url(bg.jpg);
+	
+	background-size:cover;
+	background-position: center;
+}
+nav ul{
+	list-style-type: none;
+	float:right;
+	margin-top: 25px;
+	margin-right: 15px;
+}
+nav ul li{
+	display: inline-block;
+	font-size: 20px
+}
+ nav ul li a{
+	text-decoration: none;
+	color:white;
+	padding:30px;
+	border:1px solid transparent;
+
+}
+ul li a:hover{
+	background-color: white;
+	color:  black;
+	transition: 0.8s ease;
+	clip-path: circle(30%);
+}
+.logo img{
+	float:left;
+	width:150px;
+	height:auto;
+	margin-left:30px;
+	
+}
+
+.title{
+	margin-top: 7%;
+	position: absolute;
+	top:50px;
+	left:50%;
+ transform:translate(-50%,-50%);
+
+}
+.title h1{
+		color:white;
+		font-size:100px;
+		text-align: center;
+		text-shadow:5px 5px 12px black;
+		
+		animation: text 3s alternate 1;
+		animation-delay: 1s
+	
+
+
+}
+@keyframes text{
+0%{
+	letter-spacing: 30px;
+}
+50%{
+letter-spacing: 10%
+}
+100%{
+letter-spacing: 0px;
+}
+}
+
+
+
+
+.main{
+	display: flex;
+	
+}
+
+.content{
+	padding-top: 200px;
+	display: flex;
+align-items: center;
+	justify-content: space-between;
+
+
+
+}
+
+.image{
+	width: 50%;
+
+}
+
+.info{
+padding-left: 130px
+	}
+
+.info a{
+	text-decoration: none; color: white
+}
+
+.content p{
+	color:white;
+	font-size:20px;
+	
+}
+
+.photo{
+	width: 300px;
+height: 300px;
+clip-path: circle(40%);
+margin-left: 300px
+
+}
+
+/*ABOUT*/
+
+.about{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: white;
+	padding-top: 20px;
+	padding-bottom:  25px;
+	font-size: 24px;
+	box-shadow: -2px -5px 10px 7px black;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.about a{
+	text-decoration: none;
+	color: black
+}
